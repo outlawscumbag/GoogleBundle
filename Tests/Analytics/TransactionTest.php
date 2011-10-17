@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Tests\Analytics;
+namespace Nooga\GoogleBundle\Tests\Analytics;
 
-use AntiMattr\GoogleBundle\Analytics\Transaction;
+use Nooga\GoogleBundle\Analytics\Transaction;
 
 class TransactionTest extends \PHPUnit_Framework_TestCase {
 

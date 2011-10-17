@@ -7,17 +7,17 @@
 	</parameters>
 
 	<services>
-		<service id="google.adwords" class="AntiMattr\GoogleBundle\Adwords" >
+		<service id="google.adwords" class="Nooga\GoogleBundle\Adwords" >
 			<argument type="service" id="service_container" />
 			<argument>%google.adwords.conversions%</argument>
 		</service>
 
-		<service id="templating.helper.google_adwords" class="AntiMattr\GoogleBundle\Helper\AdwordsHelper">
+		<service id="templating.helper.google_adwords" class="Nooga\GoogleBundle\Helper\AdwordsHelper">
 			<tag name="templating.helper" alias="google_adwords" />
 			<argument type="service" id="google.adwords" />
 		</service>
 
-		<service id="twig.extension.google_adwords" class="AntiMattr\GoogleBundle\Extension\AdwordsExtension">
+		<service id="twig.extension.google_adwords" class="Nooga\GoogleBundle\Extension\AdwordsExtension">
 			<tag name="twig.extension" />
 			<argument type="service" id="templating.helper.google_adwords" />
 		</service>

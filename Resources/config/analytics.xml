@@ -7,17 +7,17 @@
 	</parameters>
 
 	<services>
-		<service id="google.analytics" class="AntiMattr\GoogleBundle\Analytics">
+		<service id="google.analytics" class="Nooga\GoogleBundle\Analytics">
 			<argument type="service" id="service_container" />
 			<argument>%google.analytics.trackers%</argument>
 		</service>
 
-		<service id="templating.helper.google_analytics" class="AntiMattr\GoogleBundle\Helper\AnalyticsHelper">
+		<service id="templating.helper.google_analytics" class="Nooga\GoogleBundle\Helper\AnalyticsHelper">
 			<tag name="templating.helper" alias="google_analytics" />
 			<argument type="service" id="google.analytics" />
 		</service>
 
-		<service id="twig.extension.google_analytics" class="AntiMattr\GoogleBundle\Extension\AnalyticsExtension" public="false">
+		<service id="twig.extension.google_analytics" class="Nooga\GoogleBundle\Extension\AnalyticsExtension" public="false">
 			<tag name="twig.extension" />
 			<argument type="service" id="templating.helper.google_analytics" />
 		</service>

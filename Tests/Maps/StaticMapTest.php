@@ -1,9 +1,9 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Tests\Maps;
+namespace Nooga\GoogleBundle\Tests\Maps;
 
-use AntiMattr\GoogleBundle\Maps\StaticMap;
-use AntiMattr\GoogleBundle\Maps\Marker;
+use Nooga\GoogleBundle\Maps\StaticMap;
+use Nooga\GoogleBundle\Maps\Marker;
 
 class StaticMapTest extends \PHPUnit_Framework_TestCase
 {

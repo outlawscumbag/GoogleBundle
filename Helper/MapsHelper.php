@@ -1,10 +1,10 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Helper;
+namespace Nooga\GoogleBundle\Helper;
 
 use Symfony\Component\Templating\Helper\Helper;
-use AntiMattr\GoogleBundle\MapsManager;
-use AntiMattr\GoogleBundle\Maps\MapInterface;
+use Nooga\GoogleBundle\MapsManager;
+use Nooga\GoogleBundle\Maps\MapInterface;
 
 class MapsHelper extends Helper
 {

@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Extension;
+namespace Nooga\GoogleBundle\Extension;
 
-use AntiMattr\GoogleBundle\Helper\AdwordsHelper;
+use Nooga\GoogleBundle\Helper\AdwordsHelper;
 
 class AdwordsExtension extends \Twig_Extension
 {

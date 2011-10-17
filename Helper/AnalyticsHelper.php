@@ -1,9 +1,9 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Helper;
+namespace Nooga\GoogleBundle\Helper;
 
-use AntiMattr\GoogleBundle\Analytics;
-use AntiMattr\GoogleBundle\Analytics\Event;
+use Nooga\GoogleBundle\Analytics;
+use Nooga\GoogleBundle\Analytics\Event;
 use Symfony\Component\Templating\Helper\Helper;
 
 class AnalyticsHelper extends Helper

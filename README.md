@@ -7,7 +7,7 @@ to your application. These include Google Analytics, Adwords and Static Maps.
 
 ### Initialize Submodule
 
-    git submodule add git@github.com:antimattr/GoogleBundle.git src/AntiMattr/GoogleBundle
+    git submodule add git@github.com:antimattr/GoogleBundle.git src/Nooga/GoogleBundle
 
 ### Application Kernel
 
@@ -16,7 +16,7 @@ Add GoogleBundle to the `registerBundles()` method of your application kernel:
     public function registerBundles()
     {
         return array(
-            new AntiMattr\GoogleBundle\GoogleBundle(),
+            new Nooga\GoogleBundle\GoogleBundle(),
         );
     }
 
@@ -65,7 +65,7 @@ Note: Page View Queue is always executed before a Custom Page View
 
 ##### Ecommerce Tracking
 
-    $transaction = new \AntiMattr\GoogleBundle\Analytics\Transaction();
+    $transaction = new \Nooga\GoogleBundle\Analytics\Transaction();
     $transaction->setOrderNumber('xxxx');
     $transaction->setAffiliation('Store 777');
     $transaction->setTotal(100.00);
@@ -76,7 +76,7 @@ Note: Page View Queue is always executed before a Custom Page View
     $transaction->setCountry("USA");
     $this->get('google.analytics')->setTransaction($transaction);
 
-    $item = new \AntiMattr\GoogleBundle\Analytics\Item();
+    $item = new \Nooga\GoogleBundle\Analytics\Item();
     $item->setOrderNumber('xxxx');
     $item->setSku('zzzz');
     $item->setName('Product X');
@@ -85,7 +85,7 @@ Note: Page View Queue is always executed before a Custom Page View
     $item->setQuantity(1);
     $this->get('google.analytics')->addItem($item);
 
-    $item = new \AntiMattr\GoogleBundle\Analytics\Item();
+    $item = new \Nooga\GoogleBundle\Analytics\Item();
     $item->setOrderNumber('bbbb');
     $item->setSku('jjjj');
     $item->setName('Product Y');
@@ -135,8 +135,8 @@ the applications's `config.yml` file (The static service does NOT require an API
 
 #### Controller
 
-    use AntiMattr\GoogleBundle\Maps\StaticMap;
-    use AntiMattr\GoogleBundle\Maps\Marker;
+    use Nooga\GoogleBundle\Maps\StaticMap;
+    use Nooga\GoogleBundle\Maps\Marker;
 
     ...
 

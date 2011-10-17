@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle;
+namespace Nooga\GoogleBundle;
 
-use AntiMattr\GoogleBundle\Adwords\Conversion;
+use Nooga\GoogleBundle\Adwords\Conversion;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class Adwords

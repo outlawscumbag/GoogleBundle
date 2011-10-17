@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Extension;
+namespace Nooga\GoogleBundle\Extension;
 
-use AntiMattr\GoogleBundle\Helper\AnalyticsHelper;
+use Nooga\GoogleBundle\Helper\AnalyticsHelper;
 
 class AnalyticsExtension extends \Twig_Extension
 {

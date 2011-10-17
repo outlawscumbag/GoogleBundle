@@ -1,13 +1,13 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Tests;
+namespace Nooga\GoogleBundle\Tests;
 
 use DateTime;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use AntiMattr\GoogleBundle\Analytics;
-use AntiMattr\GoogleBundle\Analytics\Item;
-use AntiMattr\GoogleBundle\Analytics\Transaction;
+use Nooga\GoogleBundle\Analytics;
+use Nooga\GoogleBundle\Analytics\Item;
+use Nooga\GoogleBundle\Analytics\Transaction;
 
 class AnalyticsWebTest extends WebTestCase
 {

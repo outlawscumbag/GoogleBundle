@@ -7,7 +7,7 @@ use Symfony\Component\ClassLoader\UniversalClassLoader;
 $loader = new UniversalClassLoader();
 $loader->registerNamespaces(array(
     'Symfony'                                           => $_SERVER['VENDOR_LIB'].'/symfony/src',
-    'AntiMattr'                                         => __DIR__.'/../../../../',
+    'Nooga'                                         => __DIR__.'/../../../../',
     'Doctrine\\Common\\DataFixtures'                    => $_SERVER['VENDOR_LIB'].'/doctrine-data-fixtures/lib',
     'Doctrine\\Common'                                  => $_SERVER['VENDOR_LIB'].'/doctrine-common/lib',
     'Doctrine\\DBAL\\Migrations'                        => $_SERVER['VENDOR_LIB'].'/doctrine-migrations/lib',

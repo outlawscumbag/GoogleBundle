@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Tests\Adwords;
+namespace Nooga\GoogleBundle\Tests\Adwords;
 
-use AntiMattr\GoogleBundle\Adwords\Conversion;
+use Nooga\GoogleBundle\Adwords\Conversion;
 
 class ConversionTest extends \PHPUnit_Framework_TestCase
 {

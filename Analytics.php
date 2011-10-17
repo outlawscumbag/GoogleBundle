@@ -1,11 +1,11 @@
 <?php
 
-namespace AntiMattr\GoogleBundle;
+namespace Nooga\GoogleBundle;
 
-use AntiMattr\GoogleBundle\Analytics\CustomVariable;
-use AntiMattr\GoogleBundle\Analytics\Event;
-use AntiMattr\GoogleBundle\Analytics\Item;
-use AntiMattr\GoogleBundle\Analytics\Transaction;
+use Nooga\GoogleBundle\Analytics\CustomVariable;
+use Nooga\GoogleBundle\Analytics\Event;
+use Nooga\GoogleBundle\Analytics\Item;
+use Nooga\GoogleBundle\Analytics\Transaction;
 use Symfony\Component\DependencyInjection\ContainerInterface;
 
 class Analytics

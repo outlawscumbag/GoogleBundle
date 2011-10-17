@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle;
+namespace Nooga\GoogleBundle;
 
-use AntiMattr\GoogleBundle\Maps\MapInterface;
+use Nooga\GoogleBundle\Maps\MapInterface;
 use Doctrine\Common\Collections\Collection;
 
 class MapsManager

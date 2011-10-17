@@ -1,6 +1,6 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Analytics;
+namespace Nooga\GoogleBundle\Analytics;
 
 /**
  * @link http://code.google.com/apis/analytics/docs/tracking/eventTrackerGuide.html

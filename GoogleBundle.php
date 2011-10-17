@@ -1,6 +1,6 @@
 <?php
 
-namespace AntiMattr\GoogleBundle;
+namespace Nooga\GoogleBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle as BaseBundle;
 

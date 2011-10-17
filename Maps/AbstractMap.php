@@ -1,6 +1,6 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Maps;
+namespace Nooga\GoogleBundle\Maps;
 
 use Doctrine\Common\Collections\Collection;
 

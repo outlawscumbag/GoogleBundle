@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Extension;
+namespace Nooga\GoogleBundle\Extension;
 
-use AntiMattr\GoogleBundle\Helper\MapsHelper;
+use Nooga\GoogleBundle\Helper\MapsHelper;
 
 class MapsExtension extends \Twig_Extension
 {

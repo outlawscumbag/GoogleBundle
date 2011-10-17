@@ -1,6 +1,6 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Analytics;
+namespace Nooga\GoogleBundle\Analytics;
 
 class CustomVariable
 {

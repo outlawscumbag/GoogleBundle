@@ -16,7 +16,7 @@
         <!-- <server name="VENDOR_LIB" value="/path/to/symfony/vendors/dir" /> -->
     </php>
     <testsuites>
-        <testsuite name="AntiMattr GoogleBundle Test Suite">
+        <testsuite name="Nooga GoogleBundle Test Suite">
             <directory>./Tests/</directory>
         </testsuite>
     </testsuites>

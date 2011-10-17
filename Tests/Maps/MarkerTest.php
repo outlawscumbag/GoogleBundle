@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Tests\Maps;
+namespace Nooga\GoogleBundle\Tests\Maps;
 
-use AntiMattr\GoogleBundle\Maps\Marker;
+use Nooga\GoogleBundle\Maps\Marker;
 
 class MarkerTest extends \PHPUnit_Framework_TestCase {
 

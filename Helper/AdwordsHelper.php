@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Helper;
+namespace Nooga\GoogleBundle\Helper;
 
-use AntiMattr\GoogleBundle\Adwords;
+use Nooga\GoogleBundle\Adwords;
 use Symfony\Component\Templating\Helper\Helper;
 
 class AdwordsHelper extends Helper

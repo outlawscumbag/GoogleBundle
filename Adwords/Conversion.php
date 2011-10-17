@@ -1,6 +1,6 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Adwords;
+namespace Nooga\GoogleBundle\Adwords;
 
 class Conversion
 {

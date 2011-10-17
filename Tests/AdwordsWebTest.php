@@ -1,12 +1,12 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Tests;
+namespace Nooga\GoogleBundle\Tests;
 
 use DateTime;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\DependencyInjection\ContainerInterface;
-use AntiMattr\GoogleBundle\Adwords;
-use AntiMattr\GoogleBundle\Adwords\Conversion;
+use Nooga\GoogleBundle\Adwords;
+use Nooga\GoogleBundle\Adwords\Conversion;
 
 class AdwordsWebTest extends WebTestCase
 {

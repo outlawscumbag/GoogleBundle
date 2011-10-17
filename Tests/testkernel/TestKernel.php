@@ -24,7 +24,7 @@ class TestKernel extends Kernel
             new Symfony\Bundle\SecurityBundle\SecurityBundle(),
             new Symfony\Bundle\WebProfilerBundle\WebProfilerBundle(),
 
-            new AntiMattr\GoogleBundle\GoogleBundle(),
+            new Nooga\GoogleBundle\GoogleBundle(),
         );
     }
 

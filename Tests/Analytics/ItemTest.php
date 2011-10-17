@@ -1,8 +1,8 @@
 <?php
 
-namespace AntiMattr\GoogleBundle\Tests\Analytics;
+namespace Nooga\GoogleBundle\Tests\Analytics;
 
-use AntiMattr\GoogleBundle\Analytics\Item;
+use Nooga\GoogleBundle\Analytics\Item;
 
 class ItemTest extends \PHPUnit_Framework_TestCase
 {
